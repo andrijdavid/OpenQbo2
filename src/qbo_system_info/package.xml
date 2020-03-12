@@ -1,0 +1,33 @@
+<package>
+  <name>qbo_system_info</name>
+  <version>1.0.0</version>
+  <description>Execute a shell command and return the output using a service.
+      There are a config file to config commands</description>
+  <maintainer email="s.merino@openqbo.org">Sergio Merino</maintainer>
+
+  <license>GPL v2.0</license>
+  <license>LGPL v2.1</license>
+
+  <url type="website"></url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author email="s.merino@openqbo.org">Sergio Merino</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>std_msgs</build_depend>
+  <build_depend>rospy</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>std_msgs</run_depend>
+  <run_depend>rospy</run_depend>
+  <build_depend>message_generation</build_depend>
+  <run_depend>message_runtime</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+  <!-- <test_depend>std_msgs</test_depend> -->
+  <!-- <test_depend>rospy</test_depend> -->
+
+</package>

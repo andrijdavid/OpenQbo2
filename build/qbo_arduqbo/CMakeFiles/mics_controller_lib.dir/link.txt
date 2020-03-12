@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libmics_controller_lib.so -o /home/qbo/Desktop/melodia/devel/lib/libmics_controller_lib.so CMakeFiles/mics_controller_lib.dir/src/controllers/mics_controller.cpp.o 

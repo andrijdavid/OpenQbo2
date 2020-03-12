@@ -1,0 +1,2 @@
+qbo_arduqbo:qbo_cereal_port:qbo_face_msgs:qbo_listen:qbo_move:qbo_random_move:qbo_system_info:qbo_talk
+-DCATKIN_DEVEL_PREFIX=/home/qbo/Desktop/melodia/devel -DCMAKE_INSTALL_PREFIX=/home/qbo/Desktop/melodia/install -G Unix Makefiles

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qbo/Desktop/melodia/src/qbo_arduqbo/include/driver/arduqbo_instructions.h
+dataUnion.h
+/home/qbo/Desktop/melodia/src/qbo_arduqbo/include/driver/dataUnion.h
+string
+-
+vector
+-
+stdint.h
+-
+
+/home/qbo/Desktop/melodia/src/qbo_arduqbo/include/driver/dataUnion.h
+string
+-
+stdint.h
+-
+
+/home/qbo/Desktop/melodia/src/qbo_arduqbo/src/driver/arduqbo_instructions.cpp
+driver/arduqbo_instructions.h
+-
+

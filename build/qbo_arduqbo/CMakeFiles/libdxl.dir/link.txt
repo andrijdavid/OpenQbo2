@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC   -shared -Wl,-soname,liblibdxl.so -o /home/qbo/Desktop/melodia/devel/lib/liblibdxl.so CMakeFiles/libdxl.dir/src/dynamixel_sdk/src/dxl_hal.c.o 

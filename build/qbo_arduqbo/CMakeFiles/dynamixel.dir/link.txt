@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC   -shared -Wl,-soname,libdynamixel.so -o /home/qbo/Desktop/melodia/devel/lib/libdynamixel.so CMakeFiles/dynamixel.dir/src/dynamixel_sdk/src/dynamixel.c.o -Wl,-rpath,/home/qbo/Desktop/melodia/devel/lib /home/qbo/Desktop/melodia/devel/lib/liblibdxl.so 

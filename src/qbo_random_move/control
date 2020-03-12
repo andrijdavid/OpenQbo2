@@ -1,0 +1,9 @@
+
+Version: 1.0-openqbo0
+Priority: standard
+Architecture: amd64
+Section: OpenQbo
+Depends: qbo-listen, qbo-talk, qbo-face-vision, qbo-arduqbo
+Maintainer: Miguel Angel Julian <miguel.a.j@openqbo.org>
+Homepage: http://openqbo.org/wiki/doku.php?id=qbo_apps:ros_stack:qbo_random_move
+Description: Contains ROS nodes that move randomly the Q.bo robot

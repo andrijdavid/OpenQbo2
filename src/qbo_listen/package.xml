@@ -1,0 +1,38 @@
+<package>
+  <name>qbo_listen</name>
+  <version>1.0.0</version>
+  <description>qbo_listen</description>
+  <maintainer email="s@s.org">Sergio Merino Alonso</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website"></url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Sergio Merino Alonso</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>std_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>qbo_talk</build_depend>
+  <build_depend>julius</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>std_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>qbo_talk</run_depend>
+  <run_depend>julius</run_depend>
+  <build_depend>message_generation</build_depend>
+  <run_depend>message_runtime</run_depend>
+  <!-- Dependencies needed only for running tests. -->
+  <!-- <test_depend>std_msgs</test_depend> -->
+  <!-- <test_depend>roscpp</test_depend> -->
+  <!-- <test_depend>rospy</test_depend> -->
+  <!-- <test_depend>qbo_talk</test_depend> -->
+
+</package>

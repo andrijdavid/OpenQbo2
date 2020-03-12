@@ -1,0 +1,8 @@
+prefix=/home/qbo/Desktop/melodia/devel
+
+Name: qbo_move
+Description: Description of qbo_move
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs qbo_arduqbo

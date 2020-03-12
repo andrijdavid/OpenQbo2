@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libqboduino_driver_lib.so -o /home/qbo/Desktop/melodia/devel/lib/libqboduino_driver_lib.so CMakeFiles/qboduino_driver_lib.dir/src/driver/qboduino_driver.cpp.o -Wl,-rpath,/home/qbo/Desktop/melodia/devel/lib /home/qbo/Desktop/melodia/devel/lib/libarduqbo_instructions_lib.so 

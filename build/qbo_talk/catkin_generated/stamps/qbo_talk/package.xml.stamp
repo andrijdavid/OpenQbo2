@@ -1,0 +1,28 @@
+<package>
+  <name>qbo_talk</name>
+  <version>1.0.0</version>
+  <description>qbo_talk</description>
+  <maintainer email="qbo@openqbo.org">Miguel Angel Julian</maintainer>
+
+  <license>GPLv2</license>
+
+  <url type="website">http://openqbo.org/wiki/doku.php?id=qbo_apps:ros_pack:qbo_talk</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Miguel Angel Julian</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <run_depend>message_runtime</run_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>rospy</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>rospy</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+  <!-- <test_depend>rospy</test_depend> -->
+
+</package>

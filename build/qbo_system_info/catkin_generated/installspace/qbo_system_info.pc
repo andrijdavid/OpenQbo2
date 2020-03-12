@@ -1,0 +1,8 @@
+prefix=/home/qbo/Desktop/melodia/install
+
+Name: qbo_system_info
+Description: Description of qbo_system_info
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: rospy

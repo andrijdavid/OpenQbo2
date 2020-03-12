@@ -1,0 +1,43 @@
+<package>
+  <name>qbo_random_move</name>
+  <version>1.0.0</version>
+  <description>qbo_random_move</description>
+  <maintainer email="s@s.org">Miguel Angel Julian</maintainer>
+  <maintainer email="s@s.org">Arturo Bajuelos Castillo</maintainer>
+
+  <license>GPLv2</license>
+
+  <url type="website">http://openqbo.org/wiki/doku.php?id=qbo_apps:ros_pack:qbo_random_move</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Miguel Angel Julian</author>
+  <author>Arturo Bajuelos Castillo</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>rospy</build_depend>
+  <build_depend>qbo_talk</build_depend>
+  <build_depend>qbo_face_msgs</build_depend>
+  <build_depend>qbo_listen</build_depend>
+  <build_depend>qbo_system_info</build_depend>
+  <build_depend>qbo_arduqbo</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>rospy</run_depend>
+  <run_depend>qbo_talk</run_depend>
+  <run_depend>qbo_face_msgs</run_depend>
+  <run_depend>qbo_listen</run_depend>
+  <run_depend>qbo_system_info</run_depend>
+  <run_depend>qbo_arduqbo</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+  <!-- <test_depend>rospy</test_depend> -->
+  <!-- <test_depend>qbo_talk</test_depend> -->
+  <!-- <test_depend>qbo_face_msgs</test_depend> -->
+  <!-- <test_depend>qbo_listen</test_depend> -->
+  <!-- <test_depend>qbo_system_info</test_depend> -->
+  <!-- <test_depend>qbo_arduqbo</test_depend> -->
+
+</package>

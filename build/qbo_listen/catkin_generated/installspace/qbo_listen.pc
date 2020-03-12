@@ -1,0 +1,8 @@
+prefix=/home/qbo/Desktop/melodia/install
+
+Name: qbo_listen
+Description: Description of qbo_listen
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs roscpp rospy qbo_talk julius

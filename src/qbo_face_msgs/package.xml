@@ -1,0 +1,29 @@
+<package>
+  <name>qbo_face_msgs</name>
+  <version>1.0.0</version>
+  <description>qbo_face_msgs</description>
+  <maintainer email="s@s.org">Arturo Bajuelos arturo@openqbo.org</maintainer>
+
+  <license>LGPLv2.1</license>
+
+  <url type="website">http://openqbo.org/wiki/doku.php?id=qbo_apps:ros_pack:qbo_face_msgs</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Arturo Bajuelos arturo@openqbo.org</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+  <!-- <test_depend>sensor_msgs</test_depend> -->
+  <!-- <test_depend>std_msgs</test_depend> -->
+
+</package>

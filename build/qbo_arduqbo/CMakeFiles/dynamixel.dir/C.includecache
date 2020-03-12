@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qbo/Desktop/melodia/src/qbo_arduqbo/include/dynamixel.h
+
+/home/qbo/Desktop/melodia/src/qbo_arduqbo/src/dynamixel_sdk/src/dxl_hal.h
+
+/home/qbo/Desktop/melodia/src/qbo_arduqbo/src/dynamixel_sdk/src/dynamixel.c
+dxl_hal.h
+/home/qbo/Desktop/melodia/src/qbo_arduqbo/src/dynamixel_sdk/src/dxl_hal.h
+dynamixel.h
+/home/qbo/Desktop/melodia/src/qbo_arduqbo/src/dynamixel_sdk/src/dynamixel.h
+

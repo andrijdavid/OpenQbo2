@@ -1,0 +1,8 @@
+prefix=/home/qbo/Desktop/melodia/devel
+
+Name: qbo_random_move
+Description: Description of qbo_random_move
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy qbo_talk qbo_face_msgs qbo_listen qbo_system_info qbo_arduqbo
